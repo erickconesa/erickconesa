@@ -28,7 +28,23 @@ En este perfil iré publicando proyectos técnicos, configuraciones, scripts y d
 
 ## 🚀 Proyectos
 
-Próximamente iré añadiendo aquí mis principales proyectos y laboratorios documentados.
+### [Ubuntu Server Hardening Lab](https://github.com/erickconesa/ubuntu-server-hardening-lab)
+
+Despliegue y hardening de un servidor Ubuntu Server en un entorno de virtualización anidada con **Hyper-V y VMware Workstation**.
+
+El proyecto incluye:
+
+- Autenticación SSH mediante claves **Ed25519**
+- Deshabilitación de acceso remoto como `root`
+- Desactivación de autenticación SSH por contraseña
+- Política de bloqueo mediante **pam_faillock**
+- Gestión de privilegios con **sudoers**
+- Sincronización NTP con **Chrony**
+- Actualizaciones automáticas de seguridad
+- Diagnóstico de configuración efectiva de SSH y resolución de un override generado por `cloud-init`
+- Validación técnica y evidencias visuales del laboratorio
+
+Continuaré incorporando nuevos proyectos de administración de sistemas, redes, seguridad y automatización.
 
 ---
 📍 Madrid, España
